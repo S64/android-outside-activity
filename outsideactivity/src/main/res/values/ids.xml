@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="outside_top" type="id" />
+    <item name="outside_left" type="id" />
+    <item name="outside_right" type="id" />
+    <item name="outside_bottom" type="id" />
+
+</resources>

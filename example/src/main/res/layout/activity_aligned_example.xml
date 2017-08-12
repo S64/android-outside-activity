@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="jp.s64.android.outsideactivity.example.AlignedExampleActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ToggleButton
+            android:id="@+id/toggle_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textOff="Show top"
+            android:textOn="Hide top" />
+
+        <ToggleButton
+            android:id="@+id/toggle_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textOff="Show bottom"
+            android:textOn="Hide bottom" />
+
+        <ToggleButton
+            android:id="@+id/toggle_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textOff="Show left"
+            android:textOn="Hide left" />
+
+        <ToggleButton
+            android:id="@+id/toggle_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textOff="Show right"
+            android:textOn="Hide right" />
+
+        <ToggleButton
+            android:id="@+id/toggle_elevation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textOff="Toggle elevation"
+            android:textOn="Toggle elevation" />
+
+    </RelativeLayout>
+
+</layout>
