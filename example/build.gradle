@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.firebase.firebase-crash'
 
 android {
     compileSdkVersion android_compilesdk_version
@@ -76,6 +77,9 @@ dependencies {
 
     compile "com.android.support:appcompat-v7:${android_support_library_version}"
     compile "com.android.support.constraint:constraint-layout:${constraint_layout_version}"
+    compile "com.google.firebase:firebase-crash:${firebase_library_version}"
 
     testCompile "junit:junit:${junit_version}"
 }
+
+apply plugin: 'com.google.gms.google-services'
