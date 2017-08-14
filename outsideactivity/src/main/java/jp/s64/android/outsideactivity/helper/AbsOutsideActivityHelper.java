@@ -32,6 +32,9 @@ public abstract class AbsOutsideActivityHelper<SELF extends AppCompatActivity> i
         View org;
         {
             org = self.findViewById(android.support.v7.appcompat.R.id.decor_content_parent);
+            if (org == null) {
+                org = self.findViewById(android.support.v7.appcompat.R.id.action_bar_root);
+            }
             mRootView = (FrameLayout) org.getParent();
         }
         {
