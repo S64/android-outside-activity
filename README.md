@@ -21,7 +21,7 @@ Add following lines to your buildscripts.
 ```groovy
 buildscript {
     ext {
-        outside_activity_version = '0.0.1'
+        outside_activity_version = '0.1.0'
     }
 }
 ```
